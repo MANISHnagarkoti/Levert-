@@ -1,0 +1,180 @@
+.sec-four {
+
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    width: 85%;
+    margin-top: 100px;
+
+    /* border: 1px solid red; */
+}
+
+
+
+.con-wrapper {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.sec-four h1 {
+    text-align: center;
+}
+
+
+
+
+.sec-four .con {
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s;
+    flex-direction: column;
+
+}
+
+
+.shop-collection {
+
+    font-size: 33px;
+    transition: all 0.3s ease;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+.con .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.198);
+    border-radius: 40px;
+    transition: all 0.4s;
+
+
+}
+
+
+
+
+
+.con h2 {
+    position: relative;
+    z-index: 99;
+    font-weight: 600;
+    font-size: 44px;
+    transition: all 0.3s ease;
+}
+
+
+.conone {
+
+    background: url(/images/kichen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.contwo {
+
+    background: url(/images/brush.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+.conthree {
+
+    background: url(/images/go.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+.con:hover .overlay {
+
+
+    background-color: rgba(0, 0, 0, 0.287);
+    /* backdrop-filter: blur(2px); */
+
+}
+
+
+
+
+
+
+
+
+
+.sec-four .con:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:850px) {
+
+    .sec-four {
+
+
+        height: auto;
+
+
+    }
+
+
+
+    .con-wrapper {
+        display: grid;
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 230px 230px 230px;
+        grid-gap: 30px;
+        height: 100%;
+        width: 100%;
+
+    }
+
+
+
+
+
+
+}

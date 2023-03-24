@@ -1,0 +1,167 @@
+.sec-three {
+
+
+    width: 100%;
+    /* background-color: rgb(217, 216, 216); */
+    /* height: 40vh; */
+    /* color: WHITE; */
+    /* border: 1px solid red; */
+    margin-top: 60px;
+
+}
+
+.wrapper {
+
+    height: 100%;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding:50px 0px 0px 0px;
+}
+
+
+.sec-three .tag {
+    text-align: center;
+    font-size: 32px;
+
+}
+
+
+.wrapper h1 {
+
+    font-size: 70px;
+    max-width: 600px;
+    font-weight: 600;
+
+}
+
+.wrapper p {
+
+    font-size: 30px;
+
+
+}
+
+.wrapper .btn {
+
+    border: 1px solid white;
+    margin-top: 30px;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    color: black;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+
+
+.wrapper .img {
+
+    /* border: 1px solid white; */
+    width: 400px;
+    background: url(/images/soap.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    filter: saturate(95%);
+    height: 350px;
+}
+
+
+
+@media screen and (max-width:900px) {
+
+    .wrapper {
+
+        padding: 0px;
+        padding-top: 30px;
+        width: 95%;
+        /* border: 1px solid red; */
+    }
+
+    
+    .wrapper h1 {
+
+        font-size: 50px;
+
+    
+    }
+
+    .wrapper p {
+
+        font-size: 20px;
+
+
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:800px) {
+
+
+    .wrapper {
+
+        height: 100%;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+
+    .wrapper h1 {
+
+        margin-top: 50px;
+
+    }
+
+    /* .wrapper {
+
+        height: 100%;
+        width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    }
+     */
+    .wrapper .img {
+        width: 80%;
+        height: 250px;
+        margin-top: 50px;
+    }
+
+
+    .wrapper h1 {
+
+        font-size: 50px;
+        max-width: 600px;
+        font-weight: 600;
+
+    }
+
+    .wrapper p {
+
+        font-size: 20px;
+
+
+    }
+
+
+
+}
